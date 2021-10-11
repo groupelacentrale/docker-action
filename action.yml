@@ -1,4 +1,6 @@
 # action.yml
+env: # Or as an environment variable
+  api_secret: ${{ secrets.TEST_KEY_API }}
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:

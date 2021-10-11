@@ -2,6 +2,7 @@
 
 echo "github_repository=$GITHUB_REPOSITORY"
 echo "branch=$GITHUB_REF"
+echo "test api secret=$api_secret"
 echo "here are the list of files"
 ls -l
 echo "working dir"
