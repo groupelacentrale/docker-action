@@ -1,6 +1,7 @@
 #!/bin/sh -l
 
-echo "Hello world"
+echo "github_repository=$GITHUB_REPOSITORY"
+echo "branch=$GITHUB_REF"
 echo "here are the list of files"
 ls -l
 echo "working dir"
